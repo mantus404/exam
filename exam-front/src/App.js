@@ -5,6 +5,7 @@ import { IndexView } from './pages/IndexView';
 import { Nav } from './components/Nav';
 import { AdminIndex } from './pages/AdminIndex';
 import { ViewService } from './pages/ViewService';
+import { CreateService } from './pages/CreateService';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path='/' element={<IndexView />} />
           <Route path='/admin' element={<AdminIndex />} />
           <Route path='/viewservice' element={<ViewService />} />
+          <Route path='/createservice' element={<CreateService />} />
         </Routes>
       </HashRouter>
     </div>
